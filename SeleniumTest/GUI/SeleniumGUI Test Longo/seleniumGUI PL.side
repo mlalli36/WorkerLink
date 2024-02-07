@@ -1,0 +1,260 @@
+{
+  "id": "eaf22287-3e20-4515-ab53-32460895d114",
+  "version": "2.0",
+  "name": "seleniumGUI PL",
+  "url": "https://www.audi.it/it/web/it.html",
+  "tests": [{
+    "id": "45a87b8c-36ee-43ab-8b59-e2901fc0426d",
+    "name": "audi configuratore",
+    "commands": [{
+      "id": "39e0dffc-21dc-4ed0-8c2c-d9622f492d80",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.audi.it/it/web/it.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e707f259-28f4-4105-ae3d-0a202bc4e7f5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1294x684",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c860f090-f034-40ae-af6f-87af1179daf0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Configurala ora",
+      "targets": [
+        ["linkText=Configurala ora", "linkText"],
+        ["css=.kesMEK", "css:finder"],
+        ["xpath=//feature-app[@id='A|51e0289c-bc53-4a38-9fb2-9331f1557674|9702d685']/div/div/div/div/div[3]/div/div/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/content/it/web/it/modelli/q4-e-tron/q4-e-tron-sportback/versioni-pacchetti.html?pid=dsp:audi:bc:audi_homepage:a:audi:audi.it:p~header:mt~o')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Configurala ora')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7980d85-4944-48a6-a530-c97825d9fb55",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,95)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "91bc16f3-4691-47bf-81be-b0275e07fd11",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,206)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e6cf462-a1c0-4737-96a6-467b97e9ed70",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,881)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b5ab609c-bdd8-4872-8d23-6b193eed9906",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1448)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "585c028c-5c1b-4180-a721-b5fa8ee11ad2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nm-tc:nth-child(4) .nm-checkbox-1",
+      "targets": [
+        ["css=.nm-tc:nth-child(4) .nm-checkbox-1", "css:finder"],
+        ["xpath=(//a[contains(@href, '#')])[11]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "35828d96-afb3-4a7f-890a-af889e39a0ab",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Continua su “Motori”",
+      "targets": [
+        ["linkText=Continua su “Motori”", "linkText"],
+        ["css=.audi-basket--sticky .audi-basket-handrail > .audi-button", "css:finder"],
+        ["xpath=//a[contains(text(),'Continua su “Motori”')]", "xpath:link"],
+        ["xpath=//a[@type='button']", "xpath:attributes"],
+        ["xpath=//feature-app[@id='dbad:audi:basket']/div/div/div/div/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/it/web/it/modelli/q4-e-tron/q4-e-tron-sportback/motorizzazioni.html')])[2]", "xpath:href"],
+        ["xpath=//feature-app[2]/div/div/div/div/div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Continua su “Motori”')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5097edf-b47c-48d0-a3bd-27c6d986f594",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "61604a05-9b05-47dd-aaa6-4b2e4da1c632",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nm-module-engine-selection-filter-label:nth-child(3) .audi-checkbox-symbol",
+      "targets": [
+        ["css=.nm-module-engine-selection-filter-label:nth-child(3) .audi-checkbox-symbol", "css:finder"],
+        ["xpath=//label[2]/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1a22f30-5348-4f1c-b2a7-deb4f12a24b3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Continua su “Esterni”",
+      "targets": [
+        ["linkText=Continua su “Esterni”", "linkText"],
+        ["css=.audi-basket--sticky .audi-basket-handrail > .audi-button", "css:finder"],
+        ["xpath=//a[contains(text(),'Continua su “Esterni”')]", "xpath:link"],
+        ["xpath=//a[@type='button']", "xpath:attributes"],
+        ["xpath=//feature-app[@id='dbad:audi:basket']/div/div/div/div/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/it/web/it/modelli/q4-e-tron/q4-e-tron-sportback/esterni.html')])[2]", "xpath:href"],
+        ["xpath=//feature-app[2]/div/div/div/div/div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Continua su “Esterni”')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0589ae5-d8da-4e81-95ef-bd1716c72c9c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,65)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "93fff7a6-4846-404e-b365-b87d7e9345b8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.legacy:nth-child(4) > audi-configurator-tile-list:nth-child(2) .nm-module-tiles-categorized-image",
+      "targets": [
+        ["css=.legacy:nth-child(4) > audi-configurator-tile-list:nth-child(2) .nm-module-tiles-categorized-image", "css:finder"],
+        ["xpath=//img[@alt='fb-pattern.png']", "xpath:img"],
+        ["xpath=//li/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "487ae2dd-3ec6-4c9a-93c5-e9bd1ae4c414",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Continua su “Interni”",
+      "targets": [
+        ["linkText=Continua su “Interni”", "linkText"],
+        ["css=.audi-basket--sticky .audi-basket-handrail > .audi-button", "css:finder"],
+        ["xpath=//a[contains(text(),'Continua su “Interni”')]", "xpath:link"],
+        ["xpath=//a[@type='button']", "xpath:attributes"],
+        ["xpath=//feature-app[@id='dbad:audi:basket']/div/div/div/div/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/it/web/it/modelli/q4-e-tron/q4-e-tron-sportback/interni.html')])[2]", "xpath:href"],
+        ["xpath=//feature-app[2]/div/div/div/div/div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Continua su “Interni”')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea73b596-f99a-4227-9d54-29557abe3ab1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Continua su “Optional”",
+      "targets": [
+        ["linkText=Continua su “Optional”", "linkText"],
+        ["css=.audi-basket--sticky .audi-basket-handrail > .audi-button", "css:finder"],
+        ["xpath=//a[contains(text(),'Continua su “Optional”')]", "xpath:link"],
+        ["xpath=//a[@type='button']", "xpath:attributes"],
+        ["xpath=//feature-app[@id='dbad:audi:basket']/div/div/div/div/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/it/web/it/modelli/q4-e-tron/q4-e-tron-sportback/equipaggiamenti.html')])[2]", "xpath:href"],
+        ["xpath=//feature-app[2]/div/div/div/div/div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Continua su “Optional”')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6832820c-41a3-4f9f-af6a-fd67f909854f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Continua su “Accessori”",
+      "targets": [
+        ["linkText=Continua su “Accessori”", "linkText"],
+        ["css=.audi-basket--sticky .audi-basket-handrail > .audi-button", "css:finder"],
+        ["xpath=//a[contains(text(),'Continua su “Accessori”')]", "xpath:link"],
+        ["xpath=//a[@type='button']", "xpath:attributes"],
+        ["xpath=//feature-app[@id='dbad:audi:basket']/div/div/div/div/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/it/web/it/modelli/q4-e-tron/q4-e-tron-sportback/accessori.html')])[2]", "xpath:href"],
+        ["xpath=//feature-app[2]/div/div/div/div/div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Continua su “Accessori”')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c389774-be0f-49d6-9593-1137a7781090",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1fbb0b7f-2cfd-4a48-a21f-f6fa269eadc1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Riepilogo",
+      "targets": [
+        ["linkText=Riepilogo", "linkText"],
+        ["css=div:nth-child(1) > .audi-basket .nm-pageOpen", "css:finder"],
+        ["xpath=//a[contains(text(),'Riepilogo')]", "xpath:link"],
+        ["xpath=//feature-app[@id='dbad:audi:basket']/div/div/div/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/it/web/it/modelli/q4-e-tron/q4-e-tron-sportback/riepilogo-configurazione.html')])[3]", "xpath:href"],
+        ["xpath=//feature-app[2]/div/div/div/div/div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Riepilogo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "253367a1-d74f-4b52-88f9-183e39df7d91",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,106)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "783e6bc2-1ca9-43d1-b9e4-2efbcb39def1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1695)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "595e6cb3-b65b-4d05-88c9-f63af1b43dce",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2466)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6b49d62b-5117-4550-8122-55a182987f21",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2706)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "15f0e91a-ddb9-461d-b7b8-a5f128cf2582",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.kZlqOo",
+      "targets": [],
+      "value": "63.800,00 EUR"
+    }]
+  }],
+  "suites": [{
+    "id": "1792af28-2558-4606-93ce-a5d091a97043",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["45a87b8c-36ee-43ab-8b59-e2901fc0426d"]
+  }],
+  "urls": ["https://www.audi.it/it/web/it.html"],
+  "plugins": []
+}
